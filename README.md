@@ -2,6 +2,16 @@
 
 Análise da base de dados "Gorjetas", proveniente da biblioteca Seaborn. O objetivo do projeto, é executar a análise exploratória dos dados, definir a distribuição dos dados, assim como o comportamento de cada um dos atributos, por exemplo, a proporção entre o valor da conta e o valor da gorjeta, a influência da sobremesa, linha de tendência, etc. Testes de hipóteses para o valor médio da conta e da gorjeta, em comparação aos dias da semana e para o periodo do dia.
 
+# Sumário
+
+* [1. Base de dados](##1-Base-de-dados)
+* [2. Tratamento de dados](##2-tratamento-de-dados)
+* [3. Análise valor da conta e gorjeta](##3-análise-dos-idiomas-originais)
+* [4. Análise atributo sobremesa](##4-análise-notas)
+* [5. Análise - Dia da semana](##5-análise-da-base-de-dados)
+* [6. Análise - Hora do dia](###5.1-análise-da-média-de-notas-por-filme)
+* [7. Conclusão](##6-conclusao)
+
 # 1. Base de dados
 
 A base de dados utilizada está disponível pelo link: https://www.kaggle.com/datasets/leonardobolek/anlise-de-gorjetas
@@ -118,5 +128,12 @@ Outro fator analisado, foi a quantidade de clientes que pediram sobremesa nos re
 
 Para definir se, o valor da conta e do valor da gorjeta, são a mesma para o almoço e o jantar, testes de hipótese foram realizados, e com nível de confiança de 95%, conclui-se que a distruição referente o valor da conta é diferente para os dois períodos, enquanto a distribuição da gorjeta é a mesma para o almoço e o jantar.
 
-# 6. Conclusão
+# 7. Conclusão
 
+O restaurante analiasado, tem uma maior frequência de clientes no jantar e aos fim de semanas, que corresponde ao periodo em que as pessoas normalmente não possuem compromisso.
+
+Sexta feira se mostrou o pior dia, em termos de frequência, com apenas 7% dos clientes dos 4 dias analisados. Uma possível explicação para isso, seria uma provável insatisfação por parte dos clientes, com o cardápio servido nesse dia.
+
+Com relação a sobremesa, há um número expressivamente maior de clientes, que à pediram no jantar em relação ao almoço, devido a maior disponibilidade de tempo, para permanecer no restaurante. O valor da conta e o valor médio da gorjeta, também se mostrou superior nesse período.
+
+O único atributo, que apresentou influência sobre a distribuição do valor da gorjeta, foi os dias da semana, sendo domingo e sexta, os dias com a maior média dos quatro dias analisados.
